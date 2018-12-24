@@ -1,0 +1,313 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\TI99Mess.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\TI99Mess.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TI99MESS_DIALOG DIALOGEX 0, 0, 401, 253
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_NOPARENTNOTIFY | WS_EX_APPWINDOW
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "...",IDC_BUTTON_SELECT_CART,231,149,16,13
+    PUSHBUTTON      "...",IDC_BUTTON_SELECT_DSK1,231,165,16,13
+    PUSHBUTTON      "...",IDC_BUTTON_SELECT_DSK2,231,181,16,13
+    PUSHBUTTON      "...",IDC_BUTTON_SELECT_DSK3,231,197,16,13
+    PUSHBUTTON      "...",IDC_BUTTON_SELECT_CS1,231,213,16,13
+    PUSHBUTTON      "...",IDC_BUTTON_SELECT_CS2,231,229,16,13
+    CONTROL         146,IDC_BITMAPLAUNCH99,"Static",SS_BITMAP | SS_SUNKEN | 
+                    WS_BORDER,275,149,103,71
+    CTEXT           "Module:",IDC_STATIC_MODULE_LABEL,22,149,31,13,
+                    SS_CENTERIMAGE
+    CTEXT           "DSK1:",IDC_STATIC_DSK1_LABEL,27,165,26,13,
+                    SS_CENTERIMAGE
+    CTEXT           "DSK2:",IDC_STATIC_DSK2_LABEL,27,181,26,13,
+                    SS_CENTERIMAGE
+    CTEXT           "DSK3:",IDC_STATIC_DSK3_LABEL,27,197,26,13,
+                    SS_CENTERIMAGE
+    CTEXT           "CS1:",IDC_STATIC_CS1_LABEL,27,213,26,13,SS_CENTERIMAGE
+    CTEXT           "CS2:",IDC_STATIC_CS2_LABEL,27,229,26,13,SS_CENTERIMAGE
+    RTEXT           "Static",IDC_STATIC_MODULE,55,149,174,12,SS_SUNKEN,
+                    WS_EX_RIGHT
+    RTEXT           "Static",IDC_STATIC_CS2,55,229,174,12,SS_SUNKEN,
+                    WS_EX_RIGHT
+    RTEXT           "Static",IDC_STATIC_DSK1_SEL,55,165,174,12,SS_SUNKEN,
+                    WS_EX_RIGHT
+    RTEXT           "Static",IDC_STATIC_CS1,55,213,174,12,SS_SUNKEN,
+                    WS_EX_RIGHT
+    RTEXT           "Static",IDC_STATIC_DSK3_SEL,55,197,174,12,SS_SUNKEN,
+                    WS_EX_RIGHT
+    RTEXT           "Static",IDC_STATIC_DSK2_SEL,55,181,174,12,SS_SUNKEN,
+                    WS_EX_RIGHT
+    CONTROL         153,IDC_BITMAP_MINIMIZE,"Static",SS_BITMAP | SS_SUNKEN | 
+                    WS_BORDER,358,5,15,16
+    CONTROL         150,IDC_BITMAP_CLOSE,"Static",SS_BITMAP | SS_SUNKEN | 
+                    WS_BORDER,374,5,15,16
+END
+
+IDD_DIALOG_ABOUT DIALOGEX 0, 0, 310, 108
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About TI99 MESS"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,87,50,14
+    CTEXT           "Free Distribution - Only Without Charge",IDC_STATIC,92,
+                    70,123,8
+    CTEXT           "Copyright 2001-20005 Howard Uman, unHUman Software",
+                    IDC_STATIC,63,46,184,8
+    CTEXT           "http://www.unhuman.com - human@unhuman.com",IDC_STATIC,
+                    73,56,164,8
+    CONTROL         140,IDC_STATIC,"Static",SS_BITMAP,255,7,48,30
+    CONTROL         143,IDC_STATIC,"Static",SS_BITMAP,7,7,48,30
+    CONTROL         142,IDC_STATIC,"Static",SS_BITMAP,59,7,192,30,
+                    WS_EX_TRANSPARENT
+    CONTROL         140,IDC_STATIC,"Static",SS_BITMAP,7,71,48,30
+    CONTROL         143,IDC_STATIC,"Static",SS_BITMAP,255,71,48,30
+END
+
+IDD_DIALOG_SETTINGS DIALOG DISCARDABLE  0, 0, 226, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "TI99 MESS Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,59,157,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,115,157,50,14
+    LTEXT           "MESS:",IDC_STATIC,8,10,23,8
+    EDITTEXT        IDC_EDIT_MESS_PATH,38,7,163,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_LOOKUP_MESS,201,7,18,14
+    LTEXT           "Modules:",IDC_STATIC,7,49,30,8
+    EDITTEXT        IDC_EDIT_DEFAULT_CART_PATH,38,46,163,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_LOOKUP_MODULES_PATH,201,46,18,14
+    LTEXT           "Default Paths:",IDC_STATIC,7,35,46,8
+    LTEXT           "Disks:",IDC_STATIC,7,66,20,8
+    EDITTEXT        IDC_EDIT_DEFAULT_DISK_PATH,38,64,163,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_LOOKUP_DISK_PATH,201,64,18,14
+    LTEXT           "MESS Options:",IDC_STATIC,7,115,49,8
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYFRAME,7,104,212,1
+    EDITTEXT        IDC_EDIT_MESS_OPTIONS,59,112,160,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYFRAME,7,29,212,1
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYFRAME,7,134,212,1
+    LTEXT           "Default to:",IDC_STATIC,7,140,34,8
+    CONTROL         "Silver TI-99/4A",IDC_RADIO_TI_MODEL,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,45,140,64,10
+    CONTROL         "Beige TI-99/4A",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    112,140,65,10
+    LTEXT           "Tapes:",IDC_STATIC,7,83,23,8
+    EDITTEXT        IDC_EDIT_DEFAULT_TAPE_PATH,38,81,163,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_LOOKUP_TAPE_PATH,201,81,18,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "TI99Mess MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "TI99Mess\0"
+            VALUE "LegalCopyright", "Copyright (C) 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "TI99Mess.EXE\0"
+            VALUE "ProductName", "TI99Mess Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_TI99MESS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 394
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 241
+    END
+
+    IDD_DIALOG_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 303
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 101
+    END
+
+    IDD_DIALOG_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 219
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SilverTI            BITMAP  DISCARDABLE     "res\\SilverTI.bmp"
+IDB_BeigeTI             BITMAP  DISCARDABLE     "res\\BeigeTI.bmp"
+IDB_BeigeTISmall        BITMAP  DISCARDABLE     "res\\BeigeTISmall.bmp"
+IDB_MessLogo            BITMAP  DISCARDABLE     "res\\MESSLogo.bmp"
+IDB_SilverTISmall       BITMAP  DISCARDABLE     "res\\SilverTISmall.bmp"
+IDB_ClickToBegin        BITMAP  DISCARDABLE     "res\\ClickToBegin.bmp"
+IDB_ClickToBeginClicked BITMAP  DISCARDABLE     "res\\ClickToBeginAlt.bmp"
+IDB_Close               BITMAP  DISCARDABLE     "res\\Close.bmp"
+IDB_MinimizeClicked     BITMAP  DISCARDABLE     "res\\MinimizeAlt.bmp"
+IDB_CloseClicked        BITMAP  DISCARDABLE     "res\\CloseAlt.bmp"
+IDB_Minimize            BITMAP  DISCARDABLE     "res\\Minimize.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_TI_POPUP_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Default Settings"
+    BEGIN
+        MENUITEM "Default Settings",            ID_DEFAULTSETTINGS_DEFAULTSETTINGS
+
+        MENUITEM "Change Model",                ID_DEFAULTSETTINGS_CHANGEMODEL
+
+        MENUITEM SEPARATOR
+        MENUITEM "Minimize",                    ID_DEFAULTSETTINGS_MINIMIZE
+        MENUITEM SEPARATOR
+        MENUITEM "About",                       ID_DEFAULTSETTINGS_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        ID_DEFAULTSETTINGS_EXIT
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\TI99Mess.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
